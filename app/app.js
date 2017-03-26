@@ -3,6 +3,7 @@
  */
 (function() {
     "use strict"
-    var app=angular.module("productManagement",["commonService"]);
+    var app=angular.module("productManagement",
+                            ["commonService","productResourceServiceMock"]);
 }());
 
